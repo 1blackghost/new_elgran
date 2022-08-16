@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="/static/mobile.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El-Gran:Worlds Simplest Video Downloder</title>
+    <!-- HTML Meta Tags -->
+    <title>El-Gran:Worlds Simplest Video Downloder</title>
+    <meta name="description" content="This worlds simplest and easiest video downloader that downloades from any websites , as audio , video as well as trim video and audio with users convience.">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="El-Gran:Worlds Simplest Video Downloder">
+    <meta itemprop="description" content="This worlds simplest and easiest video downloader that downloades from any websites , as audio , video as well as trim video and audio with users convience.">
+    <meta itemprop="image" content="https://www.elgran.xyz/favicon.ico">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://www.elgran.xyz">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="El-Gran:Worlds Simplest Video Downloder">
+    <meta property="og:description" content="This worlds simplest and easiest video downloader that downloades from any websites , as audio , video as well as trim video and audio with users convience.">
+    <meta property="og:image" content="https://www.elgran.xyz/favicon.ico">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="El-Gran:Worlds Simplest Video Downloder">
+    <meta name="twitter:description" content="This worlds simplest and easiest video downloader that downloades from any websites , as audio , video as well as trim video and audio with users convience.">
+    <meta name="twitter:image" content="https://www.elgran.xyz/favicon.ico">
+    <style>
+        .idm{
+              font-size: 20px;
+              color: red;
+              position: relative;
+
+            }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">El-<strong>Gran</strong></div>
+            <a class="option-new" href="">What's New</a>
+            <a class="option" href="">Help</a>
+            <a class="option" href="#header-box">Home</a>
+            <button class="but" onclick="hamopen()">&#9776;</button>
+        </div>
+        <div class="ham" id="ham3">
+            <button class="close" onclick="hamclose()">&times;</button><br><br><br><br>
+            <a href="" class="b">Home</a><br><br><br>
+            <a href="" class="b">Help</a><br><br><br>
+            <a href="" class="b">What's New</a><br><br><br>
+        </div>
+
+        <div class="header-box" id="header-box">
+            <h1>Worlds Best YouTube Converter</h1>
+
+            <form method="post" action="/process" id="form1">
+                <input autofocus autocomplete="off" id="url" name="link" type="text" placeholder="Enter URL Here...." class="input">
+                <button  class="butt"><img src="/static/path995.png" class="img"></button>
+                            <p  class="idm">{{message}}</p>
+
+            </form>
+
+        </div>
+        <div class="content1">
+            <br>
+            <div class="line"></div>
+            <h2>El-Gran Online Video Converter</h2><br>
+            <div class="text1">
+                "El-Gran allows you to convert & download video from YouTube to Video/Audio in all the known 
+                formats such as mp4, mp3, m4a, etc...or you can download them trimmed as audio/video as you wish."
+            </div>
+            <div class="line"></div>
+        </div>
+       <div class="box-1"> 
+            <ul>
+                <h3>Instruction</h3>
+                <li>Directly paste the link of video you want to convert</li>
+                <li>Click " <img src="/static/s.png"class="imgg2"> " button to begin converting process</li>
+                <li>Select the video/audio format you want to download, then <br>click "Download" button</li>
+                <li>For trimming enter the seconds/minutes/hours in HH:MM:SS <br>format and choose video/audio that you want to download</li>
+                <li>Press "Download" Button</li>
+            </ul>
+        </div>
+        <div class="box-2">
+            <ul>
+                <h3>Features</h3>
+                <li>Unlimited downloads and always free</li>
+                <li>Trim And Download Videos and Audios</li>
+                <li>High-speed video converter</li>
+                <li>Support downloading with all formats</li>
+                <li>Free Download</li>
+                <li>Fully compatible with all browsers.</li>
+                <li>No registration required</li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="box-3">
+                <div class="box">
+                    <img src="/static/img_51607.png" class="img2">
+                    <h4>Fast Download</h4>
+                    <h5>Download in a split second you will not even notice it</h5>
+
+                </div>
+                <div class="box">
+                    <img src="/static/path938.png" class="img2">
+                    <h4>Video and Audio</h4>
+                    <h5>Audio and Video can be Downloaded separately</h5>
+                </div>
+                <div class="box">
+                    <img src="/static/path956.png" class="img2">
+                    <h4>Video Trimmer</h4>
+                    <h5>Unique feature to Trim Video before downloading</h5>
+                </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer"></div>
+        <script>
+            function hamopen(){
+                document.getElementById("ham3").style.height="70%";
+                document.getElementById("ham3").style.opacity="1";
+            }
+            function hamclose(){
+                document.getElementById("ham3").style.height="0px";
+                document.getElementById("ham3").style.opacity="0";
+            }
+        </script>
+    </body>
+</html>
